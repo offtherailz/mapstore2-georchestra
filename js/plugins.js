@@ -82,6 +82,7 @@ module.exports = {
         RulesDataGridPlugin: require('@mapstore/plugins/RulesDataGrid'),
         RulesEditorPlugin: require('@mapstore/plugins/RulesEditor'),
         RulesManagerFooter: require('@mapstore/plugins/RulesManagerFooter'),
+        SamplePlugin: require('./plugins/Sample').default,
         SaveAsPlugin: require('@mapstore/plugins/SaveAs').default,
         SavePlugin: require('@mapstore/plugins/Save').default,
         SaveStoryPlugin: require('@mapstore/plugins/GeoStorySave'),

@@ -332,6 +332,11 @@
             "FeedbackMask"
         ],
         "desktop": [
+          {"name": "Sample",
+            "cfg": {
+              "color": "blue"
+            }
+          },
           "Header",
           "Details",
           {
