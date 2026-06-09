@@ -693,7 +693,7 @@
             {
               "name": "ResourceDetails",
               "cfg": {
-                "headerNodeSelector": null,
+                "headerNodeSelector": "geor-header",
                 "disablePluginIf": "{!state('userrole')}",
                 "resourceType": "MAP"
               }
@@ -932,7 +932,7 @@
       {
         "name": "ResourcesFiltersForm",
         "cfg": {
-          "headerNodeSelector": null,
+          "headerNodeSelector": "geor-header",
           "resourcesGridId": "catalog"
         }
       },
@@ -945,7 +945,7 @@
       {
         "name": "ResourceDetails",
         "cfg": {
-            "headerNodeSelector":":has(geor-header)",
+            "headerNodeSelector": "geor-header",
             "enableFilters": true
         }
       },{
@@ -1011,7 +1011,7 @@
         {
             "name": "ResourceDetails",
             "cfg": {
-                "headerNodeSelector":":has(geor-header)",
+                "headerNodeSelector": "geor-header",
                 "resourceType": "DASHBOARD"
             }
         },
@@ -1151,7 +1151,7 @@
             "name": "ResourceDetails",
             "cfg": {
                 "resourceType": "GEOSTORY",
-                "headerNodeSelector":":has(geor-header)",
+                "headerNodeSelector": "geor-header",
                 "disablePluginIf": "{!state('userrole')}",
                 "containerPosition": "columns"
             }

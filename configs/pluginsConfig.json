@@ -704,7 +704,8 @@
       "title": "plugins.ResourceDetails.title",
       "description": "plugins.ResourceDetails.description",
       "defaultConfig": {
-        "resourceType": "MAP"
+        "resourceType": "MAP",
+        "headerNodeSelector": "geor-header"
       }
     },
     {
