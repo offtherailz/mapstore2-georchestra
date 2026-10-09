@@ -118,5 +118,8 @@
     "updateDevDeps": "node updateDevDependencies.js"
   },
   "author": "GeoSolutions",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "overrides": {
+    "underscore": "^1.13.8"
+  }
 }
